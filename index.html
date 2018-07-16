@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>standard tag</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+            color: #333;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            console.time('videoPlaying');
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Standard tag</h1>
+    <!-- TAG START { player: "Player: 588681465", owner: "AOL Management", for: "AOL Management" } -->
+    <div id="591c47d1b90afb49f952c905" class="vdb_player vdb_591c47d1b90afb49f952c905545db032e4b0af1a81424b48" vdb_params="m.onLoad=onPlayerReady">
+        <script async type="text/javascript" src="https://delivery.vidible.tv/jsonp/pid=591c47d1b90afb49f952c905/545db032e4b0af1a81424b48.js"></script>
+    </div>
+    <!-- TAG END { date: 05/17/17 } -->
+    <script>
+        function onPlayerReady(player) {
+            player.addEventListener(vidible.VIDEO_START, function(event) {
+                console.timeEnd('videoPlaying');
+            });
+        }
+    </script>
+</body>
+
+</html>
