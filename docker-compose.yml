@@ -1,0 +1,13 @@
+---
+version: '2'
+services:
+  multiplewindows:
+    build: .
+    container_name: oak-os-demo-web-player
+    network_mode: host
+    devices:
+      - /dev/dri
+      - /dev/snd
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev/shm:/dev/shm
