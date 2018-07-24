@@ -1,7 +1,7 @@
 ---
 version: '2'
 services:
-  multiplewindows:
+  oak-os-demo-web-player:
     build: .
     container_name: oak-os-demo-web-player
     network_mode: host
