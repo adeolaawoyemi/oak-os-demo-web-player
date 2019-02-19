@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "oak": "^4.2.4",
+    "electron": ">=1.8.8",
     "lodash": ">=4.17.11",
-    "electron": ">=1.8.8"
+    "oak": "^5.0.4"
   }
 }
