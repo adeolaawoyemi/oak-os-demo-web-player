@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "oak": "^4.2.4"
+    "oak": "^4.2.4",
+    "lodash": ">=4.17.11"
   }
 }
