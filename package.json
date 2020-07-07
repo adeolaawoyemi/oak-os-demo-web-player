@@ -15,4 +15,7 @@
     "lodash": ">=4.17.13",
     "oak": "^5.0.4"
   }
+  "devDependencies": {
+    "minimist": ">=1.2.3"
+  }
 }
