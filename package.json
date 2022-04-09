@@ -16,6 +16,6 @@
     "oak": "^5.0.4"
   },
   "devDependencies": {
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   }
 }
